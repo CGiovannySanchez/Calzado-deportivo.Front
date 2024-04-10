@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>CALZADO DEPORTIVO</title>
+    
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item"  onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-1.png" alt="">
+                        <p class="descripcion">CONVERSE MODELO 1</p>
+                        <span class="precio">$ 285.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-2.jpg" alt="">
+                        <p class="descripcion">ADIDAS MODELO 1</p>
+                        <span class="precio">$ 235.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-3.png" alt="">
+                        <p class="descripcion">CONVERSE MODELO 2</p>
+                        <span class="precio">$ 325.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-4.png" alt="">
+                        <p class="descripcion">NIKE MODELO 1</p>
+                        <span class="precio">$ 275.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila" >
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-5.jpg" alt="">
+                        <p class="descripcion">ADIDAS BOTA 1</p>
+                        <span class="precio">$ 425.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-6.png" alt="">
+                        <p class="descripcion">CONVERSE MODELO 3</p>
+                        <span class="precio">$ 295.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-7.png" alt="">
+                        <p class="descripcion">CONVERSE MODELO 4</p>
+                        <span class="precio">$ 325.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Tenis-img-8.png" alt="">
+                        <p class="descripcion">NIKE MODELO 2</p>
+                        <span class="precio">$ 365.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO-->
+        <div class="seleccion" id="seleccion">
+            <di class="cerrar" onclick="cerrar()">
+                &#x2715
+            </di>
+            <div class="info">
+                <img src="img/Tenis-img-1.png" alt="" id="img">
+                <h2 id="modelo">CONVERSE MODELO 1</h2>
+                <p id="descripcion">Descripcion modelo 1</p>
+
+                <span class="precio" id="precio">$ 285.000</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">44</option>
+                            <option value="">46</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
